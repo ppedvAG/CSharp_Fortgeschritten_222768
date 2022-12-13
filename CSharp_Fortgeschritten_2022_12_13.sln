@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grundkurs", "Grundkurs", "{511B7529-47C2-4A1E-B0E8-23B12F56A807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M002", "M002\M002.csproj", "{2E616266-8B73-455A-ADB4-BAFFC4EA7184}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M002", "Grundkurs\M002\M002.csproj", "{2E616266-8B73-455A-ADB4-BAFFC4EA7184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

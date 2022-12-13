@@ -147,7 +147,7 @@
 			Console.WriteLine(8.0 / 5); //Kommadivision erzwingen, eine der beiden Zahlen zu einer Kommazahl konvertieren
 			Console.WriteLine(8d / 5);
 			Console.WriteLine(8f / 5);
-			Console.WriteLine((double) zahl1 / zahl2); //Variable zu double konvertieren mit Cast (double)
+			Console.WriteLine((double) zahl1 / zahl2); //Variable zu double konvertieren mit Cast (double) 
 			#endregion
 		}
 	}

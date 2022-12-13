@@ -130,7 +130,7 @@
 
 			if (zahlen.Contains(3))
 			{
-				//Zahlen enthält 3
+				//Zahlen enthält 3 
 			}
 
 			//Fragezeichen Operator (?, :) ? ist if, : ist else

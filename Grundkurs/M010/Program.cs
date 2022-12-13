@@ -47,7 +47,7 @@ public interface IArbeit //Interfaces fangen per Konvention mit I an
 	}
 }
 
-public interface ITeilzeitarbeit : IArbeit //Interfaces vererbung
+public interface ITeilzeitarbeit : IArbeit //Interfaces Vererbung
 {
 	static new int Wochenstunden = 20;
 

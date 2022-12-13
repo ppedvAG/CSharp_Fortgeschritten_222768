@@ -12,10 +12,10 @@ C# Fortgeschritten vom 13.12.2022 bis 15.12.2022. Trainer: Lukas Kern (LukasK@pp
 - [ ] C# 9.0
 
 
-## M002 | Aktuelle Version C# 10 und Ausblick auf C# 11
+## M002 | Aktuelle Versionen C# 10, C# 11
 
 - [ ] C# 10
-- [ ] Ausblick C# 11
+- [ ] C# 11
 
 
 ## M003 | Delegates und Events

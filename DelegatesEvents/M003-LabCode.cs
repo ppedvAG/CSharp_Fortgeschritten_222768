@@ -29,17 +29,25 @@ public class DivisionsCalculator
 	}
 }
 
-// public bool CheckPrime(int num)
-// {
-	// if (num % 2 == 0)
-		// return false;
-	
-	// for (int i = 3; i <= num / 2; i += 2)
-	// {
-		// if (num % i == 0)
-		// {
-			// return false;
-		// }
-	// }
-	// return true;
-// }
+/// <summary>
+/// Überprüft ob eine gegebene Zahl eine Primzahl ist und gibt true oder false zurück.
+/// </summary>
+/// <param name="num">Die Zahl die überprüft werden soll.</param>
+/// <returns>Ist eine Primzahl, oder nicht.</returns>
+//public bool CheckPrime(int num)
+//{
+//	if (num % 2 == 0)
+//	{
+//		return false;
+//	}
+//
+//	for (int i = 3; i <= num / 2; i += 2)
+//	{
+//		if (num % i == 0)
+//		{
+//			return false;
+//		}
+//	}
+//
+//	return true;
+//}

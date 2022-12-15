@@ -145,6 +145,9 @@ internal class Program
 			.GroupBy(e => new[] { e.VN, e.NN })
 			.ToDictionary(e => e.Key, e => e.Count());
 		x.Where(e => e.Value >= 2).ToList();
+
+		//Liste von Listen glätten
+		fahrzeuge.Chunk(5).SelectMany(e => e);
 		#endregion
 
 		#region Erweiterungsmethode

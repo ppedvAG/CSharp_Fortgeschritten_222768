@@ -39,11 +39,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung", "Serialisi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{DE23E5D0-00C0-4F77-9DA1-C948C44F5AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{6393E503-CC85-43D2-BF3C-9E57B2F46E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitasking", "Multitasking\Multitasking.csproj", "{6393E503-CC85-43D2-BF3C-9E57B2F46E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{BB8AF1D9-85C0-4B45-9C0B-4FD177322816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{BB8AF1D9-85C0-4B45-9C0B-4FD177322816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{D407EBDA-A15A-4551-9E85-F442B1989921}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{D407EBDA-A15A-4551-9E85-F442B1989921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CA39A857-7F34-4583-8CC8-F2BF417ACC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{3699E3F5-F0C0-4C66-813E-94D9A0AFF3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{51866FA8-5B1E-459A-A0D6-864E560695E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginClient", "PluginClient\PluginClient.csproj", "{781022AA-59D8-4D70-9E20-465A9B42388C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +139,22 @@ Global
 		{D407EBDA-A15A-4551-9E85-F442B1989921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D407EBDA-A15A-4551-9E85-F442B1989921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D407EBDA-A15A-4551-9E85-F442B1989921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA39A857-7F34-4583-8CC8-F2BF417ACC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA39A857-7F34-4583-8CC8-F2BF417ACC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA39A857-7F34-4583-8CC8-F2BF417ACC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA39A857-7F34-4583-8CC8-F2BF417ACC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3699E3F5-F0C0-4C66-813E-94D9A0AFF3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3699E3F5-F0C0-4C66-813E-94D9A0AFF3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3699E3F5-F0C0-4C66-813E-94D9A0AFF3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3699E3F5-F0C0-4C66-813E-94D9A0AFF3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51866FA8-5B1E-459A-A0D6-864E560695E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51866FA8-5B1E-459A-A0D6-864E560695E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51866FA8-5B1E-459A-A0D6-864E560695E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51866FA8-5B1E-459A-A0D6-864E560695E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781022AA-59D8-4D70-9E20-465A9B42388C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781022AA-59D8-4D70-9E20-465A9B42388C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781022AA-59D8-4D70-9E20-465A9B42388C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781022AA-59D8-4D70-9E20-465A9B42388C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

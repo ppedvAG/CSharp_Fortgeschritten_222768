@@ -16,6 +16,7 @@ internal class ParallelInvoke
 	static void GetLongestWord()
 	{
 		Console.WriteLine(Words.OrderByDescending(e => e.Length).First());
+
 	}
 
 	static void GetCountForWord(string word)
